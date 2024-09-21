@@ -159,3 +159,9 @@ justify-content: space-between;
   top: 80px;
   bottom: 215px;
 }
+
+.video-container iframe {
+  width: 100%;
+  height: auto;
+  border: none;
+}
