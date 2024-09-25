@@ -32,7 +32,7 @@
                <a href="#menu" class="nav__link">Menu</a>
             </li>
             <li>
-              <a href="#book" class="nav__link">Book a Table</a>
+              <a href="#reservation" class="nav__link">Book a Table</a>
            </li>
            <li>
               <a href="#about" class="nav__link">Contacts</a>
@@ -75,7 +75,33 @@
         </section>
         <section id="menu" class="menu">
         </section>
-        <section id="book" class="book">
+        <section id="reservation" class="reservation">
+          <h2 class="reservation__title">Book a table</h2>
+          <form class="reservation__form form">
+            <fieldset class="form__fieldset">
+              <label for="name-input" class="form__label">
+                Name *
+                <input type="text" required id="name-input" class="form__input" placeholder="Name Surname">
+              </label>
+              <label for="guest-input" class="form__label">
+                Number of guests *
+                <input type="number" required id="guest-input" class="form__input" placeholder="1-8">
+              </label>
+              <label for="datetime-input" class="form__label">
+                Date & time *
+                <input type="datetime-local" required id="datetime-input" class="form__input">
+              </label>
+              <label for="email-input" class="form__label">
+                Your email *
+                <input type="email" required id="email-input" class="form__input" placeholder="email@email.com">
+              </label>
+              <button class="form__button">Book a table</button>
+              <label for="terms-input" class="form__label form__label_type_checkbox">
+                <input type="checkbox" id="terms-input" class="form__input">
+                I agree with the terms of use
+              </label>
+            </fieldset>
+          </form>
         </section>
         <section id="about" class="about">
         </section>
