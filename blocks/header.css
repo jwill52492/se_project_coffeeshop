@@ -1,0 +1,80 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  background-image: url(../images/background_header.svg);
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  position: relative;
+  box-sizing: border-box;
+  padding: 30px 80px 40px;
+}
+
+.header__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -0.6px;
+  top: 183px;
+  left: 80px;
+  max-width: 729px;
+}
+
+.header__description {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 683px;
+  top: 28px;
+  left: 80px;
+}
+
+.header__image {
+  z-index: 1;
+  position: absolute;
+  top: 124px;
+  right: 5px;
+  max-width: 568px;
+  max-height: 646px;
+}
+
+.header__footer {
+  margin-top: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6f6f6f;
+}
+
+.header__link {
+  text-decoration: none;
+}
+
+.header__address {
+  position: absolute;
+  bottom: 40px;
+  right: 80px;
+}
+
+.span-accent {
+  display: block;
+  padding-bottom: 10px;
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #3F96F3;
+}
