@@ -27,4 +27,9 @@
  font-size: 16px;
  line-height: 20px;
  color:black;
+ transition: opacity 1s;
+}
+
+.nav__link:hover {
+  opacity: 50%;
 }

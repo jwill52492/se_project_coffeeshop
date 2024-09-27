@@ -36,7 +36,7 @@
   margin: 0;
 }
 
-.about__cirle {
+.about__circle {
   background-color: #1878DC;
   position: absolute;
   border-radius: 50%;
@@ -47,7 +47,7 @@
   z-index: -1;
 }
 
-.about__cirle_animation_blurred {
+.about__circle_animation_blurred {
   animation-duration: 1.3s;
   animation: pulsate 1.3s ease-in-out 0s infinite;
 }
