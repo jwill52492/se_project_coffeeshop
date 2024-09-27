@@ -1,3 +1,68 @@
 .about {
-  color: #0A2850;
+  color: white;
+  background-color: #0A2850;
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 80px 173px;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.about__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  max-width: 251px;
+  margin: 0px;
+}
+
+.about__content {
+  max-width: 660px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 19px 0 0;
+}
+
+.about__paragraph {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.about__cirle {
+  background-color: #1878DC;
+  position: absolute;
+  border-radius: 50%;
+  width: 426px;
+  height: 426px;
+  top: -152px;
+  left: -129px;
+  z-index: -1;
+}
+
+.about__cirle_animation_blurred {
+  animation-duration: 1.3s;
+  animation: pulsate 1.3s ease-in-out 0s infinite;
+}
+
+@keyframes pulsate {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.6;
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1.4);
+  }
 }
