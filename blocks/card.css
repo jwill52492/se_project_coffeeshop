@@ -3,7 +3,7 @@
 }
 .card__title {
   margin: 0 0 32px;
-  font-family: "Inter", Arial, sans-serifs;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -19,13 +19,11 @@
 }
 
 .card__list-item {
-  margin: 0 0 16px;
-  font-family: "Noto Serif", "Times New Roman", Times, serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
-  padding: 0 0 100px;
   display: flex;
   gap: 10px;
 }
@@ -35,6 +33,3 @@
   border-bottom: 1px solid black;
 }
 
-.card__list-item span {
-  margin-left: 10px;
-}

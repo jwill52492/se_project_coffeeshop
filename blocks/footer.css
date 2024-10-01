@@ -22,7 +22,6 @@
   margin-bottom: 20px;
   margin-left: auto;
   font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
@@ -50,8 +49,6 @@
 
 .footer__social-link {
   font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 20px;
   align-items: center;
